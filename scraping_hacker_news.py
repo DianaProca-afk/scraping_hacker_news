@@ -1,4 +1,6 @@
-
+'''
+This code selects the title, link and score of the articles with votes above 100.
+'''
 import requests
 from bs4 import BeautifulSoup
 import pprint
